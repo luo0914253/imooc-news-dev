@@ -1,8 +1,9 @@
-C:\Users\ljw20\Downloads\distributed-session-master\imooc-news-dev\imooc-news-dev-service-api\src\main\java\com\imooc\api\interceptors\PassportInterceptor.java
-C:\Users\ljw20\Downloads\distributed-session-master\imooc-news-dev\imooc-news-dev-service-api\src\main\java\com\imooc\api\controller\user\HelloControllerApi.java
-C:\Users\ljw20\Downloads\distributed-session-master\imooc-news-dev\imooc-news-dev-service-api\src\main\java\com\imooc\api\config\InterceptorConfig.java
-C:\Users\ljw20\Downloads\distributed-session-master\imooc-news-dev\imooc-news-dev-service-api\src\main\java\com\imooc\api\controller\user\PassportControllerApi.java
-C:\Users\ljw20\Downloads\distributed-session-master\imooc-news-dev\imooc-news-dev-service-api\src\main\java\com\imooc\api\config\CorsConfig.java
-C:\Users\ljw20\Downloads\distributed-session-master\imooc-news-dev\imooc-news-dev-service-api\src\main\java\com\imooc\api\config\Swagger2.java
-C:\Users\ljw20\Downloads\distributed-session-master\imooc-news-dev\imooc-news-dev-service-api\src\main\java\com\imooc\my\mapper\MyMapper.java
-C:\Users\ljw20\Downloads\distributed-session-master\imooc-news-dev\imooc-news-dev-service-api\src\main\java\com\imooc\api\controller\user\BaseController.java
+D:\IdeaProjects\imooc-news-dev\imooc-news-dev-service-api\src\main\java\com\imooc\my\mapper\MyMapper.java
+D:\IdeaProjects\imooc-news-dev\imooc-news-dev-service-api\src\main\java\com\imooc\api\controller\user\UserControllerApi.java
+D:\IdeaProjects\imooc-news-dev\imooc-news-dev-service-api\src\main\java\com\imooc\api\controller\user\BaseController.java
+D:\IdeaProjects\imooc-news-dev\imooc-news-dev-service-api\src\main\java\com\imooc\api\controller\user\PassportControllerApi.java
+D:\IdeaProjects\imooc-news-dev\imooc-news-dev-service-api\src\main\java\com\imooc\api\interceptors\PassportInterceptor.java
+D:\IdeaProjects\imooc-news-dev\imooc-news-dev-service-api\src\main\java\com\imooc\api\config\Swagger2.java
+D:\IdeaProjects\imooc-news-dev\imooc-news-dev-service-api\src\main\java\com\imooc\api\config\InterceptorConfig.java
+D:\IdeaProjects\imooc-news-dev\imooc-news-dev-service-api\src\main\java\com\imooc\api\controller\user\HelloControllerApi.java
+D:\IdeaProjects\imooc-news-dev\imooc-news-dev-service-api\src\main\java\com\imooc\api\config\CorsConfig.java

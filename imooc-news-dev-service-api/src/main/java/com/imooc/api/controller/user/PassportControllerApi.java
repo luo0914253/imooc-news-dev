@@ -1,7 +1,7 @@
 package com.imooc.api.controller.user;
 
 import com.imooc.grace.result.GraceJSONResult;
-import com.imooc.pojo.BO.RegistLoginBO;
+import com.imooc.pojo.bo.RegistLoginBO;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.validation.BindingResult;

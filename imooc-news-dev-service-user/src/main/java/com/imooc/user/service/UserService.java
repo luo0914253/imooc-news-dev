@@ -1,6 +1,7 @@
 package com.imooc.user.service;
 
-import com.imooc.pojo.BO.AppUser;
+import com.imooc.pojo.bo.AppUser;
+import com.imooc.pojo.bo.UpdateUserInfoBO;
 
 public interface UserService {
     /**
@@ -23,4 +24,10 @@ public interface UserService {
      * @return
      */
     public AppUser getUser(String userId);
+
+    /**
+     * 用户修改信息，完善资料，并且激活
+     * @param updateUserInfoBO
+     */
+    public void updateUserInfo(UpdateUserInfoBO updateUserInfoBO);
 }

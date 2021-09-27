@@ -26,6 +26,8 @@ public class BaseController {
 
     public static final String REDIS_USER_TOKEN = "redis_user_token";
 
+    public static final String REDIS_USER_INFO = "redis_user_info";
+
     public static final Integer COOKIE_MONTH = 30*24*60*60;
 
     public Map<String,String> getErrors(BindingResult result){

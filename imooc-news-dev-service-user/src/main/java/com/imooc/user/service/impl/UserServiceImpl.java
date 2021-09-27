@@ -2,12 +2,18 @@ package com.imooc.user.service.impl;
 
 import com.imooc.enums.Sex;
 import com.imooc.enums.UserStatus;
-import com.imooc.pojo.BO.AppUser;
+import com.imooc.exception.GraceException;
+import com.imooc.grace.result.ResponseStatusEnum;
+import com.imooc.pojo.bo.AppUser;
+import com.imooc.pojo.bo.UpdateUserInfoBO;
 import com.imooc.user.mapper.AppUserMapper;
 import com.imooc.user.service.UserService;
 import com.imooc.utils.DateUtil;
+import com.imooc.utils.JsonUtils;
+import com.imooc.utils.RedisOperator;
 import org.n3r.idworker.Sid;
 import com.imooc.utils.DesensitizationUtil;
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import tk.mybatis.mapper.entity.Example;
@@ -20,6 +26,10 @@ public class UserServiceImpl implements UserService {
     private AppUserMapper appUserMapper;
     @Autowired
     private Sid sid;
+    @Autowired
+    public RedisOperator redis;
+
+    public static final String REDIS_USER_INFO = "redis_user_info";
 
     private static final String USER_FACE0 = "http://122.152.205.72:88/group1/M00/00/05/CpoxxFw_8_qAIlFXAAAcIhVPdSg994.png";
     private static final String USER_FACE1 = "http://122.152.205.72:88/group1/M00/00/05/CpoxxF6ZUySASMbOAABBAXhjY0Y649.png";
@@ -72,5 +82,25 @@ public class UserServiceImpl implements UserService {
     @Override
     public AppUser getUser(String userId) {
         return appUserMapper.selectByPrimaryKey(userId);
+    }
+
+    /**
+     * 用户修改信息，完善资料，并且激活
+     * @param updateUserInfoBO
+     */
+    @Override
+    public void updateUserInfo(UpdateUserInfoBO updateUserInfoBO) {
+        AppUser appUser = new AppUser();
+        BeanUtils.copyProperties(updateUserInfoBO,appUser);
+        appUser.setUpdatedTime(new Date());
+        appUser.setActiveStatus(UserStatus.ACTIVE.type);
+        int result = appUserMapper.updateByPrimaryKeySelective(appUser);
+        if (result!=1){
+            GraceException.display(ResponseStatusEnum.USER_UPDATE_ERROR);
+        }
+//      再次查询用户的最新数据，放入Redis中
+        String userId = updateUserInfoBO.getId();
+        AppUser user = getUser(userId);
+        redis.set(REDIS_USER_INFO+":"+userId, JsonUtils.objectToJson(user));
     }
 }

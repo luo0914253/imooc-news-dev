@@ -1,4 +1,4 @@
-package com.imooc.pojo.BO;
+package com.imooc.pojo.bo;
 
 import java.util.Date;
 import javax.persistence.*;

@@ -1,4 +1,4 @@
-package com.imooc.pojo.BO;
+package com.imooc.pojo.bo;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import org.hibernate.validator.constraints.Length;
