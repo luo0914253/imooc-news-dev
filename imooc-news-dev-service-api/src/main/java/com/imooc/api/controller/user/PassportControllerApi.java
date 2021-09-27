@@ -23,4 +23,8 @@ public interface PassportControllerApi {
     @PostMapping("/doLogin")
     public GraceJSONResult doLogin(@RequestBody @Valid RegistLoginBO registLoginBO
             , BindingResult result, HttpServletRequest request, HttpServletResponse response);
+
+    @ApiOperation(value = "用户退出登录",notes = "用户退出登录",httpMethod = "POST")
+    @PostMapping("/logout")
+    public GraceJSONResult logout(@RequestParam String userId, HttpServletRequest request, HttpServletResponse response);
 }

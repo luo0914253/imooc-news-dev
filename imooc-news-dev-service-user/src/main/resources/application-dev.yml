@@ -8,3 +8,7 @@ spring:
 #    password: admin   本机redis没密码
 website:
   domain-name: imoocnews.com
+#  开启mybatis的日志打印
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

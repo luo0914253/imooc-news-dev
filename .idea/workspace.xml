@@ -2,54 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74dfe125-7da4-4669-9f37-f95555c822b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/imooc-news-dev-common/src/main/java/com/imooc/utils/JsonUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imooc-news-dev-model/src/main/java/com/imooc/pojo/vo/AppUserVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imooc-news-dev-service-api/src/main/java/com/imooc/api/interceptors/BaseInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imooc-news-dev-service-api/src/main/java/com/imooc/api/interceptors/UserActiveInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imooc-news-dev-service-api/src/main/java/com/imooc/api/interceptors/UserTokenInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc-news-dev-service-api/src/main/java/com/imooc/api/aspect/ServiceLogAspect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-news-dev-common/imooc-news-dev-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/imooc-news-dev.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-news-dev-common/target/classes/META-INF/imooc-news-dev-common.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-news-dev-common/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-news-dev-common/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-news-dev-common/target/imooc-news-dev-common.jar" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-news-dev-common/target/imooc-news-dev-common.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-news-dev-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-news-dev-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-news-dev-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-news-dev-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-news-dev-model/src/main/java/com/imooc/pojo/BO/AppUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-news-dev-model/src/main/java/com/imooc/pojo/bo/AppUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-news-dev-model/src/main/java/com/imooc/pojo/BO/Fans.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-news-dev-model/src/main/java/com/imooc/pojo/bo/Fans.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-news-dev-model/src/main/java/com/imooc/pojo/BO/RegistLoginBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-news-dev-model/src/main/java/com/imooc/pojo/bo/RegistLoginBO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-news-dev-model/src/main/java/com/imooc/pojo/BO/UpdateUserInfoBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-news-dev-model/src/main/java/com/imooc/pojo/bo/UpdateUserInfoBO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-news-dev-model/target/classes/META-INF/imooc-news-dev-model.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-news-dev-model/target/imooc-news-dev-model.jar" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-news-dev-model/target/imooc-news-dev-model.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-news-dev-model/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-news-dev-model/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-news-dev-service-api/imooc-news-dev-service-api.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-news-dev-service-api/src/main/java/com/imooc/api/config/InterceptorConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-news-dev-service-api/src/main/java/com/imooc/api/config/InterceptorConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc-news-dev-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-news-dev-common/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/imooc-news-dev-service-api/src/main/java/com/imooc/api/controller/user/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-news-dev-service-api/src/main/java/com/imooc/api/controller/user/BaseController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/imooc-news-dev-service-api/src/main/java/com/imooc/api/controller/user/PassportControllerApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-news-dev-service-api/src/main/java/com/imooc/api/controller/user/PassportControllerApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-news-dev-service-api/src/main/java/com/imooc/api/controller/user/UserControllerApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-news-dev-service-api/src/main/java/com/imooc/api/controller/user/UserControllerApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-news-dev-service-api/target/classes/com/imooc/api/controller/user/UserControllerApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-news-dev-service-api/target/classes/com/imooc/api/controller/user/UserControllerApi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-news-dev-service-api/target/imooc-news-dev-service-api.jar" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-news-dev-service-api/target/imooc-news-dev-service-api.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-news-dev-service-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-news-dev-service-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-news-dev-service-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-news-dev-service-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-news-dev-service-user/imooc-news-dev-service-user.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/imooc-news-dev-service-user/src/main/java/com/imooc/user/controller/PassportController.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-news-dev-service-user/src/main/java/com/imooc/user/controller/PassportController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-news-dev-service-user/src/main/java/com/imooc/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-news-dev-service-user/src/main/java/com/imooc/user/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-news-dev-service-user/src/main/java/com/imooc/user/mapper/AppUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-news-dev-service-user/src/main/java/com/imooc/user/mapper/AppUserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-news-dev-service-user/src/main/java/com/imooc/user/mapper/FansMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-news-dev-service-user/src/main/java/com/imooc/user/mapper/FansMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-news-dev-service-user/src/main/java/com/imooc/user/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-news-dev-service-user/src/main/java/com/imooc/user/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-news-dev-service-user/src/main/java/com/imooc/user/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-news-dev-service-user/src/main/java/com/imooc/user/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-news-dev-service-user/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-news-dev-service-user/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-news-dev-service-user/src/main/resources/mapper/AppUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-news-dev-service-user/src/main/resources/mapper/AppUserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-news-dev-service-user/src/main/resources/mapper/FansMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-news-dev-service-user/src/main/resources/mapper/FansMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-news-dev-service-user/target/classes/com/imooc/user/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-news-dev-service-user/target/classes/com/imooc/user/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-news-dev-service-user/target/classes/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-news-dev-service-user/target/classes/logback-spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-news-dev-service-user/target/imooc-news-dev-service-user.jar" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-news-dev-service-user/target/imooc-news-dev-service-user.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-news-dev-service-user/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-news-dev-service-user/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-news-dev-service-user/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-news-dev-service-user/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-generator-database/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-generator-database/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-generator-database/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-generator-database/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-generator-database/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-generator-database/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-generator-database/target/mybatis-generator-database-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-generator-database/target/mybatis-generator-database-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc-news-dev-service-user/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-news-dev-service-user/src/main/resources/application-dev.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -67,10 +26,46 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/imooc-news-dev-service-user/src/main/java/com/imooc/user/service/impl/UserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1550">
+              <caret line="106" selection-start-line="106" selection-end-line="106" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imooc-news-dev-service-api/src/main/java/com/imooc/api/controller/user/UserControllerApi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+            <state relative-caret-position="350">
+              <caret line="25" column="87" selection-start-line="25" selection-start-column="87" selection-end-line="25" selection-end-column="87" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/imooc-news-dev-service-api/src/main/java/com/imooc/api/controller/user/PassportControllerApi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/imooc-news-dev-service-user/src/main/java/com/imooc/user/controller/PassportController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1030">
+              <caret line="85" column="62" lean-forward="true" selection-start-line="85" selection-start-column="62" selection-end-line="85" selection-end-column="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -78,8 +73,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imooc-news-dev-service-user/src/main/java/com/imooc/user/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
-              <caret line="68" column="22" lean-forward="true" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="48" />
+            <state relative-caret-position="125">
+              <caret line="24" column="41" lean-forward="true" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -87,76 +82,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imooc-news-dev-service-api/src/main/java/com/imooc/api/controller/user/BaseController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="28" column="4" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="67" />
+            <state relative-caret-position="497">
+              <caret line="31" column="50" lean-forward="true" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imooc-news-dev-service-user/src/main/java/com/imooc/user/service/impl/UserServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="103" column="34" lean-forward="true" selection-start-line="103" selection-start-column="34" selection-end-line="103" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2350#2351#0" expanded="true" />
-                <element signature="e#2413#2414#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/imooc-news-dev-service-api/src/main/java/com/imooc/api/config/InterceptorConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="30" column="57" lean-forward="true" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#491#492#0" expanded="true" />
-                <element signature="e#539#540#0" expanded="true" />
-                <element signature="e#651#652#0" expanded="true" />
-                <element signature="e#699#700#0" expanded="true" />
-                <element signature="e#776#777#0" expanded="true" />
-                <element signature="e#825#826#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imooc-news-dev-service-api/src/main/java/com/imooc/api/interceptors/UserActiveInterceptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="19" column="46" lean-forward="true" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imooc-news-dev-service-api/src/main/java/com/imooc/api/interceptors/BaseInterceptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="9" column="67" selection-start-line="9" selection-start-column="67" selection-end-line="9" selection-end-column="67" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imooc-news-dev-common/src/main/java/com/imooc/grace/result/ResponseStatusEnum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -194,7 +124,6 @@
         <option value="$PROJECT_DIR$/imooc-news-dev-common/src/main/java/com/imooc/utils/extend/AliyunResource.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/imooc-news-dev-common/src/main/java/com/imooc/utils/RedisOperator.java" />
-        <option value="$PROJECT_DIR$/imooc-news-dev-common/pom.xml" />
         <option value="$PROJECT_DIR$/imooc-news-dev-model/pom.xml" />
         <option value="$PROJECT_DIR$/imooc-news-dev-service-api/pom.xml" />
         <option value="$PROJECT_DIR$/imooc-news-dev-service-user/pom.xml" />
@@ -208,10 +137,7 @@
         <option value="$PROJECT_DIR$/imooc-news-dev-common/src/main/java/org/n3r/idworker/Sid.java" />
         <option value="$PROJECT_DIR$/imooc-news-dev-common/src/main/java/org/n3r/idworker/utils/DesensitizationUtil.java" />
         <option value="$PROJECT_DIR$/imooc-news-dev-service-user/src/main/java/com/imooc/user/Application.java" />
-        <option value="$PROJECT_DIR$/imooc-news-dev-service-api/src/main/java/com/imooc/api/controller/user/PassportControllerApi.java" />
-        <option value="$PROJECT_DIR$/imooc-news-dev-service-user/src/main/java/com/imooc/user/controller/PassportController.java" />
         <option value="$PROJECT_DIR$/imooc-news-dev-service-user/src/main/resources/application-prod.yml" />
-        <option value="$PROJECT_DIR$/imooc-news-dev-service-user/src/main/resources/application-dev.yml" />
         <option value="$PROJECT_DIR$/imooc-news-dev-model/src/main/java/com/imooc/pojo/vo/UserAccountInfoVO.java" />
         <option value="$PROJECT_DIR$/imooc-news-dev-model/src/main/java/com/imooc/pojo/BO/UpdateUserInfoBO.java" />
         <option value="$PROJECT_DIR$/imooc-news-dev-service-user/src/main/resources/logback-spring.xml" />
@@ -219,7 +145,6 @@
         <option value="$PROJECT_DIR$/imooc-news-dev-service-user/src/main/java/com/imooc/user/service/UserService.java" />
         <option value="$PROJECT_DIR$/imooc-news-dev-model/src/main/java/com/imooc/pojo/vo/AppUserVO.java" />
         <option value="$PROJECT_DIR$/imooc-news-dev-service-api/src/main/java/com/imooc/api/controller/user/UserControllerApi.java" />
-        <option value="$PROJECT_DIR$/imooc-news-dev-service-api/src/main/java/com/imooc/api/controller/user/BaseController.java" />
         <option value="$PROJECT_DIR$/imooc-news-dev-common/src/main/java/com/imooc/utils/JsonUtils.java" />
         <option value="$PROJECT_DIR$/imooc-news-dev-service-user/src/main/java/com/imooc/user/controller/UserController.java" />
         <option value="$PROJECT_DIR$/imooc-news-dev-service-user/src/main/java/com/imooc/user/service/impl/UserServiceImpl.java" />
@@ -227,6 +152,12 @@
         <option value="$PROJECT_DIR$/imooc-news-dev-service-api/src/main/java/com/imooc/api/interceptors/BaseInterceptor.java" />
         <option value="$PROJECT_DIR$/imooc-news-dev-service-api/src/main/java/com/imooc/api/interceptors/UserActiveInterceptor.java" />
         <option value="$PROJECT_DIR$/imooc-news-dev-service-api/src/main/java/com/imooc/api/config/InterceptorConfig.java" />
+        <option value="$PROJECT_DIR$/imooc-news-dev-common/pom.xml" />
+        <option value="$PROJECT_DIR$/imooc-news-dev-service-api/src/main/java/com/imooc/api/aspect/ServiceLogAspect.java" />
+        <option value="$PROJECT_DIR$/imooc-news-dev-service-user/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/imooc-news-dev-service-api/src/main/java/com/imooc/api/controller/user/PassportControllerApi.java" />
+        <option value="$PROJECT_DIR$/imooc-news-dev-service-api/src/main/java/com/imooc/api/controller/user/BaseController.java" />
+        <option value="$PROJECT_DIR$/imooc-news-dev-service-user/src/main/java/com/imooc/user/controller/PassportController.java" />
       </list>
     </option>
   </component>
@@ -255,6 +186,31 @@
           <item name="imooc-news-dev" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="imooc-news-dev-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="imooc-news-dev-model" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="imooc-news-dev-service-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="imooc-news-dev-service-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="imooc-news-dev-service-user" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="mybatis-generator-database" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
       </expand>
       <select />
     </treeState>
@@ -264,7 +220,7 @@
     <option name="width" value="1382" />
     <option name="height" value="784" />
   </component>
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
@@ -272,8 +228,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -314,6 +270,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imooc-news-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imooc-news-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc-news-dev-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="imooc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -323,8 +289,51 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc" type="462c0819:PsiDirectoryNode" />
+              <item name="enums" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imooc-news-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imooc-news-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc-news-dev-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="imooc" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imooc-news-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imooc-news-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc-news-dev-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="extend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imooc-news-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imooc-news-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc-news-dev-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imooc-news-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imooc-news-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc-news-dev-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="n3r" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="imooc-news-dev" type="b2602c69:ProjectViewProjectNode" />
@@ -367,6 +376,27 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imooc-news-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imooc-news-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc-news-dev-model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imooc-news-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imooc-news-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc-news-dev-model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc" type="462c0819:PsiDirectoryNode" />
               <item name="pojo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -376,22 +406,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc" type="462c0819:PsiDirectoryNode" />
               <item name="pojo" type="462c0819:PsiDirectoryNode" />
               <item name="bo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="imooc-news-dev" type="b2602c69:ProjectViewProjectNode" />
               <item name="imooc-news-dev" type="462c0819:PsiDirectoryNode" />
-              <item name="imooc-news-dev-model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="vo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="imooc-news-dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc-news-dev" type="462c0819:PsiDirectoryNode" />
               <item name="imooc-news-dev-service-api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -422,6 +444,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imooc-news-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imooc-news-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc-news-dev-service-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="imooc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -431,6 +463,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="imooc" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -441,6 +474,19 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="aspect" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imooc-news-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imooc-news-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc-news-dev-service-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="imooc" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
@@ -452,6 +498,32 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imooc-news-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imooc-news-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc-news-dev-service-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imooc-news-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imooc-news-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc-news-dev-service-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="imooc" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
               <item name="interceptors" type="462c0819:PsiDirectoryNode" />
@@ -459,6 +531,17 @@
             <path>
               <item name="imooc-news-dev" type="b2602c69:ProjectViewProjectNode" />
               <item name="imooc-news-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc-news-dev-service-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc" type="462c0819:PsiDirectoryNode" />
+              <item name="my" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imooc-news-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imooc-news-dev" type="462c0819:PsiDirectoryNode" />
               <item name="imooc-news-dev-service-user" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -489,6 +572,27 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imooc-news-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imooc-news-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc-news-dev-service-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imooc-news-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imooc-news-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc-news-dev-service-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc" type="462c0819:PsiDirectoryNode" />
               <item name="user" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -498,8 +602,47 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc" type="462c0819:PsiDirectoryNode" />
               <item name="user" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imooc-news-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imooc-news-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc-news-dev-service-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imooc-news-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imooc-news-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc-news-dev-service-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imooc-news-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imooc-news-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc-news-dev-service-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="imooc-news-dev" type="b2602c69:ProjectViewProjectNode" />
@@ -551,6 +694,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imooc-news-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imooc-news-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis-generator-database" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="imooc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -559,7 +712,114 @@
               <item name="mybatis-generator-database" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imooc-news-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imooc-news-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis-generator-database" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc" type="462c0819:PsiDirectoryNode" />
+              <item name="article" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imooc-news-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imooc-news-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis-generator-database" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc" type="462c0819:PsiDirectoryNode" />
+              <item name="article" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imooc-news-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imooc-news-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis-generator-database" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc" type="462c0819:PsiDirectoryNode" />
+              <item name="my" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imooc-news-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imooc-news-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis-generator-database" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc" type="462c0819:PsiDirectoryNode" />
+              <item name="my" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imooc-news-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imooc-news-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis-generator-database" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imooc-news-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imooc-news-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis-generator-database" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imooc-news-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imooc-news-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis-generator-database" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imooc-news-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imooc-news-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis-generator-database" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imooc-news-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imooc-news-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis-generator-database" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="article" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imooc-news-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imooc-news-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imooc-news-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -574,7 +834,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1632734762302" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1632760425469" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatis-generator-database/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -670,13 +930,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54975000" />
+    <option name="totallyTimeSpent" value="57639000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23524962" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18656716" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -686,7 +946,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.30163935" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.30163935" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -704,7 +964,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" weight="0.15885022" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.15938166" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
@@ -715,7 +975,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.2.5.RELEASE/spring-data-redis-2.2.5.RELEASE.jar!/org/springframework/data/redis/core/StringRedisTemplate.class" />
     <entry file="file://$PROJECT_DIR$/imooc-news-dev-service-user/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -756,13 +1015,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-news-dev-common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -940,24 +1192,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-news-dev-service-user/src/main/java/com/imooc/user/controller/PassportController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="691">
-          <caret line="83" column="49" lean-forward="true" selection-start-line="83" selection-start-column="49" selection-end-line="83" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/imooc-news-dev-service-user/src/main/resources/application-prod.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-news-dev-service-user/src/main/resources/application-dev.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
@@ -1024,16 +1259,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-news-dev-service-api/src/main/java/com/imooc/api/controller/user/PassportControllerApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="92" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/imooc-news-dev-service-user/src/main/resources/logback-spring.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -1050,18 +1275,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/imooc-news-dev-service-user/src/main/java/com/imooc/user/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        <state relative-caret-position="200">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-news-dev-model/src/main/java/com/imooc/pojo/bo/AppUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1069,13 +1287,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-news-dev-service-api/src/main/java/com/imooc/api/controller/user/UserControllerApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -1113,13 +1324,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-news-dev-service-user/src/main/java/com/imooc/user/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="68" column="22" lean-forward="true" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/imooc-news-dev-common/src/main/java/com/imooc/grace/result/ResponseStatusEnum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -1139,30 +1343,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/imooc-news-dev-service-user/src/main/java/com/imooc/user/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="103" column="34" lean-forward="true" selection-start-line="103" selection-start-column="34" selection-end-line="103" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2350#2351#0" expanded="true" />
-            <element signature="e#2413#2414#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-news-dev-service-user/src/main/java/com/imooc/user/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="31" column="47" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-news-dev-service-api/src/main/java/com/imooc/api/controller/user/BaseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="28" column="4" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="67" />
+        <state relative-caret-position="1550">
+          <caret line="106" selection-start-line="106" selection-end-line="106" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1201,6 +1383,89 @@
             <element signature="e#699#700#0" expanded="true" />
             <element signature="e#776#777#0" expanded="true" />
             <element signature="e#825#826#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-news-dev-service-api/src/main/java/com/imooc/api/controller/user/UserControllerApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="25" column="87" selection-start-line="25" selection-start-column="87" selection-end-line="25" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-news-dev-service-api/src/main/java/com/imooc/api/controller/user/PassportControllerApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-news-dev-service-api/src/main/java/com/imooc/api/aspect/ServiceLogAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="21" column="46" lean-forward="true" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-news-dev-model/src/main/java/com/imooc/pojo/bo/AppUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-news-dev-service-user/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-news-dev-service-user/src/main/java/com/imooc/user/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-news-dev-common/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-news-dev-service-user/src/main/java/com/imooc/user/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="24" column="41" lean-forward="true" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-news-dev-service-api/src/main/java/com/imooc/api/controller/user/BaseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="31" column="50" lean-forward="true" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-news-dev-service-user/src/main/java/com/imooc/user/controller/PassportController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1030">
+          <caret line="85" column="62" lean-forward="true" selection-start-line="85" selection-start-column="62" selection-end-line="85" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
