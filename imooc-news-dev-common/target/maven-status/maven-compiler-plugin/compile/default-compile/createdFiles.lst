@@ -8,6 +8,7 @@ com\imooc\utils\RedisOperator.class
 org\n3r\idworker\Code.class
 org\n3r\idworker\strategy\FileLock.class
 com\imooc\enums\UserStatus.class
+com\imooc\utils\JsonUtils.class
 META-INF\spring-configuration-metadata.json
 com\imooc\grace\result\IMOOCJSONResult.class
 org\n3r\idworker\Test.class

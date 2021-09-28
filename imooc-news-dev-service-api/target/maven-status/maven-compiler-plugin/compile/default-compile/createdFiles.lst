@@ -1,9 +1,14 @@
 com\imooc\api\controller\user\BaseController.class
-com\imooc\api\controller\user\PassportControllerApi.class
-com\imooc\my\mapper\MyMapper.class
 com\imooc\api\config\Swagger2.class
-com\imooc\api\config\InterceptorConfig.class
 com\imooc\api\interceptors\PassportInterceptor.class
 com\imooc\api\config\CorsConfig.class
+com\imooc\api\interceptors\UserActiveInterceptor.class
+com\imooc\api\controller\user\PassportControllerApi.class
+com\imooc\api\interceptors\BaseInterceptor.class
+com\imooc\my\mapper\MyMapper.class
+com\imooc\api\config\InterceptorConfig.class
+com\imooc\api\controller\files\FileUploaderControllerApi.class
+com\imooc\api\aspect\ServiceLogAspect.class
 com\imooc\api\controller\user\UserControllerApi.class
 com\imooc\api\controller\user\HelloControllerApi.class
+com\imooc\api\interceptors\UserTokenInterceptor.class
