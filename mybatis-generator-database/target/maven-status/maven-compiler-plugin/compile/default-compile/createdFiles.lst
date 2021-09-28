@@ -1,9 +1,11 @@
+com\imooc\admin\mapper\AdminUserMapper.class
 com\imooc\article\mapper\ArticleMapper.class
-com\imooc\my\mapper\MyMapper.class
-com\imooc\mybatis\utils\AdminGenerator.class
 com\imooc\mybatis\utils\UserGenerator.class
+com\imooc\pojo\AdminUser.class
 com\imooc\pojo\Article.class
-com\imooc\mybatis\utils\ArticleGenerator.class
 com\imooc\admin\Application.class
 com\imooc\article\mapper\CommentsMapper.class
+com\imooc\my\mapper\MyMapper.class
+com\imooc\mybatis\utils\AdminGenerator.class
+com\imooc\mybatis\utils\ArticleGenerator.class
 com\imooc\pojo\Comments.class

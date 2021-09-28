@@ -1,6 +1,9 @@
-com\imooc\pojo\bo\AppUser.class
+com\imooc\pojo\AppUser.class
+com\imooc\pojo\bo\AdminLoginBO.class
+com\imooc\pojo\bo\NewAdminBO.class
 com\imooc\pojo\bo\UpdateUserInfoBO.class
+com\imooc\pojo\AdminUser.class
 com\imooc\pojo\vo\AppUserVO.class
 com\imooc\pojo\bo\RegistLoginBO.class
-com\imooc\pojo\bo\Fans.class
+com\imooc\pojo\Fans.class
 com\imooc\pojo\vo\UserAccountInfoVO.class

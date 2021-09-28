@@ -4,7 +4,7 @@ import com.imooc.api.controller.user.BaseController;
 import com.imooc.api.controller.user.UserControllerApi;
 import com.imooc.grace.result.GraceJSONResult;
 import com.imooc.grace.result.ResponseStatusEnum;
-import com.imooc.pojo.bo.AppUser;
+import com.imooc.pojo.AppUser;
 import com.imooc.pojo.bo.UpdateUserInfoBO;
 import com.imooc.pojo.vo.AppUserVO;
 import com.imooc.pojo.vo.UserAccountInfoVO;

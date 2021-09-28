@@ -5,7 +5,7 @@ import com.imooc.api.controller.user.PassportControllerApi;
 import com.imooc.enums.UserStatus;
 import com.imooc.grace.result.GraceJSONResult;
 import com.imooc.grace.result.ResponseStatusEnum;
-import com.imooc.pojo.bo.AppUser;
+import com.imooc.pojo.AppUser;
 import com.imooc.pojo.bo.RegistLoginBO;
 import com.imooc.user.service.UserService;
 import com.imooc.utils.IPUtil;

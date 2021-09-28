@@ -1,4 +1,4 @@
-package com.imooc.pojo.bo;
+package com.imooc.pojo;
 
 import javax.persistence.*;
 

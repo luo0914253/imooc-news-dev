@@ -1,8 +1,8 @@
-D:\IdeaProjects\imooc-news-dev\imooc-news-dev-service-user\src\main\java\com\imooc\user\Application.java
-D:\IdeaProjects\imooc-news-dev\imooc-news-dev-service-user\src\main\java\com\imooc\user\mapper\FansMapper.java
-D:\IdeaProjects\imooc-news-dev\imooc-news-dev-service-user\src\main\java\com\imooc\user\mapper\AppUserMapper.java
-D:\IdeaProjects\imooc-news-dev\imooc-news-dev-service-user\src\main\java\com\imooc\user\service\impl\UserServiceImpl.java
-D:\IdeaProjects\imooc-news-dev\imooc-news-dev-service-user\src\main\java\com\imooc\user\controller\PassportController.java
-D:\IdeaProjects\imooc-news-dev\imooc-news-dev-service-user\src\main\java\com\imooc\user\service\UserService.java
-D:\IdeaProjects\imooc-news-dev\imooc-news-dev-service-user\src\main\java\com\imooc\user\controller\HelloController.java
-D:\IdeaProjects\imooc-news-dev\imooc-news-dev-service-user\src\main\java\com\imooc\user\controller\UserController.java
+C:\Users\ljw20\Downloads\distributed-session-master\imooc-news-dev\imooc-news-dev-service-user\src\main\java\com\imooc\user\controller\UserController.java
+C:\Users\ljw20\Downloads\distributed-session-master\imooc-news-dev\imooc-news-dev-service-user\src\main\java\com\imooc\user\controller\HelloController.java
+C:\Users\ljw20\Downloads\distributed-session-master\imooc-news-dev\imooc-news-dev-service-user\src\main\java\com\imooc\user\mapper\FansMapper.java
+C:\Users\ljw20\Downloads\distributed-session-master\imooc-news-dev\imooc-news-dev-service-user\src\main\java\com\imooc\user\service\impl\UserServiceImpl.java
+C:\Users\ljw20\Downloads\distributed-session-master\imooc-news-dev\imooc-news-dev-service-user\src\main\java\com\imooc\user\controller\PassportController.java
+C:\Users\ljw20\Downloads\distributed-session-master\imooc-news-dev\imooc-news-dev-service-user\src\main\java\com\imooc\user\Application.java
+C:\Users\ljw20\Downloads\distributed-session-master\imooc-news-dev\imooc-news-dev-service-user\src\main\java\com\imooc\user\mapper\AppUserMapper.java
+C:\Users\ljw20\Downloads\distributed-session-master\imooc-news-dev\imooc-news-dev-service-user\src\main\java\com\imooc\user\service\UserService.java

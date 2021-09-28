@@ -1,6 +1,9 @@
-D:\IdeaProjects\imooc-news-dev\imooc-news-dev-model\src\main\java\com\imooc\pojo\bo\UpdateUserInfoBO.java
-D:\IdeaProjects\imooc-news-dev\imooc-news-dev-model\src\main\java\com\imooc\pojo\bo\Fans.java
-D:\IdeaProjects\imooc-news-dev\imooc-news-dev-model\src\main\java\com\imooc\pojo\bo\RegistLoginBO.java
-D:\IdeaProjects\imooc-news-dev\imooc-news-dev-model\src\main\java\com\imooc\pojo\vo\AppUserVO.java
-D:\IdeaProjects\imooc-news-dev\imooc-news-dev-model\src\main\java\com\imooc\pojo\vo\UserAccountInfoVO.java
-D:\IdeaProjects\imooc-news-dev\imooc-news-dev-model\src\main\java\com\imooc\pojo\bo\AppUser.java
+C:\Users\ljw20\Downloads\distributed-session-master\imooc-news-dev\imooc-news-dev-model\src\main\java\com\imooc\pojo\AdminUser.java
+C:\Users\ljw20\Downloads\distributed-session-master\imooc-news-dev\imooc-news-dev-model\src\main\java\com\imooc\pojo\vo\UserAccountInfoVO.java
+C:\Users\ljw20\Downloads\distributed-session-master\imooc-news-dev\imooc-news-dev-model\src\main\java\com\imooc\pojo\bo\AdminLoginBO.java
+C:\Users\ljw20\Downloads\distributed-session-master\imooc-news-dev\imooc-news-dev-model\src\main\java\com\imooc\pojo\Fans.java
+C:\Users\ljw20\Downloads\distributed-session-master\imooc-news-dev\imooc-news-dev-model\src\main\java\com\imooc\pojo\bo\NewAdminBO.java
+C:\Users\ljw20\Downloads\distributed-session-master\imooc-news-dev\imooc-news-dev-model\src\main\java\com\imooc\pojo\AppUser.java
+C:\Users\ljw20\Downloads\distributed-session-master\imooc-news-dev\imooc-news-dev-model\src\main\java\com\imooc\pojo\bo\UpdateUserInfoBO.java
+C:\Users\ljw20\Downloads\distributed-session-master\imooc-news-dev\imooc-news-dev-model\src\main\java\com\imooc\pojo\vo\AppUserVO.java
+C:\Users\ljw20\Downloads\distributed-session-master\imooc-news-dev\imooc-news-dev-model\src\main\java\com\imooc\pojo\bo\RegistLoginBO.java

@@ -1,6 +1,6 @@
 package com.imooc.user.service;
 
-import com.imooc.pojo.bo.AppUser;
+import com.imooc.pojo.AppUser;
 import com.imooc.pojo.bo.UpdateUserInfoBO;
 
 public interface UserService {

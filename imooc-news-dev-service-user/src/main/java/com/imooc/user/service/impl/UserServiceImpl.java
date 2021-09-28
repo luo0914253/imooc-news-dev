@@ -4,7 +4,7 @@ import com.imooc.enums.Sex;
 import com.imooc.enums.UserStatus;
 import com.imooc.exception.GraceException;
 import com.imooc.grace.result.ResponseStatusEnum;
-import com.imooc.pojo.bo.AppUser;
+import com.imooc.pojo.AppUser;
 import com.imooc.pojo.bo.UpdateUserInfoBO;
 import com.imooc.user.mapper.AppUserMapper;
 import com.imooc.user.service.UserService;

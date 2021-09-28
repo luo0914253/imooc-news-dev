@@ -1,3 +1,4 @@
+com\imooc\api\controller\admin\AdminMngControllerApi.class
 com\imooc\api\controller\user\BaseController.class
 com\imooc\api\config\Swagger2.class
 com\imooc\api\interceptors\PassportInterceptor.class
