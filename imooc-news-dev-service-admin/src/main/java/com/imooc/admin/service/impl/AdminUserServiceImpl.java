@@ -1,11 +1,14 @@
 package com.imooc.admin.service.impl;
 
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
 import com.imooc.admin.mapper.AdminUserMapper;
 import com.imooc.admin.service.AdminUserService;
 import com.imooc.exception.GraceException;
 import com.imooc.grace.result.ResponseStatusEnum;
 import com.imooc.pojo.AdminUser;
 import com.imooc.pojo.bo.NewAdminBO;
+import com.imooc.utils.PagedGridResult;
 import org.apache.commons.lang3.StringUtils;
 import org.n3r.idworker.Sid;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -60,5 +63,28 @@ public class AdminUserServiceImpl implements AdminUserService {
         if (result != 1){
             GraceException.display(ResponseStatusEnum.ADMIN_CREATE_ERROR);
         }
+    }
+
+    /**
+     * 查询admin列表
+     * @param page
+     * @param pageSize
+     */
+    @Override
+    public PagedGridResult queryAdminList(Integer page, Integer pageSize) {
+        Example example = new Example(AdminUser.class);
+        example.orderBy("createTime").desc();
+        PageHelper.startPage(page,pageSize);
+        List<AdminUser> adminUsers = adminUserMapper.selectByExample(example);
+        return setterPagedGrid(adminUsers,page);
+    }
+    private PagedGridResult setterPagedGrid(List<?> adminUserList, Integer page){
+        PageInfo<?> pageInfo = new PageInfo<>(adminUserList);
+        PagedGridResult pagedGridResult = new PagedGridResult();
+        pagedGridResult.setRows(adminUserList);
+        pagedGridResult.setPage(page);
+        pagedGridResult.setRecords(pageInfo.getPages());
+        pagedGridResult.setTotal(pagedGridResult.getTotal());
+        return pagedGridResult;
     }
 }

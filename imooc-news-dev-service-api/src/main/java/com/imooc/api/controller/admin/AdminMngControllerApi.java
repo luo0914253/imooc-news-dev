@@ -6,11 +6,9 @@ import com.imooc.pojo.bo.NewAdminBO;
 import com.imooc.pojo.bo.UpdateUserInfoBO;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiParam;
 import org.springframework.validation.BindingResult;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -33,4 +31,11 @@ public interface AdminMngControllerApi {
     @PostMapping("/addNewAdmin")
     public GraceJSONResult addNewAdmin(@RequestBody NewAdminBO newAdminBO,HttpServletRequest request,HttpServletResponse response);
 
+    @ApiOperation(value = "查询admin列表",notes = "查询admin列表",httpMethod = "GET")
+    @GetMapping("/getAdminList")
+    public GraceJSONResult getAdminList(
+            @ApiParam(name = "page",value = "查询下一页的第几页",required = false)
+            @RequestParam Integer page,
+            @ApiParam(name = "pageSize",value = "分页查询每一页显示的条数",required = false)
+            @RequestParam Integer pageSize);
 }

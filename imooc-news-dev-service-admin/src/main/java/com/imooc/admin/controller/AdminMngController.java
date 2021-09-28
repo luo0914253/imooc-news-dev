@@ -1,5 +1,6 @@
 package com.imooc.admin.controller;
 
+import com.github.pagehelper.PageInfo;
 import com.imooc.admin.service.AdminUserService;
 import com.imooc.api.controller.admin.AdminMngControllerApi;
 import com.imooc.api.controller.user.BaseController;
@@ -9,6 +10,7 @@ import com.imooc.grace.result.ResponseStatusEnum;
 import com.imooc.pojo.AdminUser;
 import com.imooc.pojo.bo.AdminLoginBO;
 import com.imooc.pojo.bo.NewAdminBO;
+import com.imooc.utils.PagedGridResult;
 import com.imooc.utils.RedisOperator;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
@@ -19,6 +21,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.util.List;
 import java.util.UUID;
 
 @RestController
@@ -70,6 +73,18 @@ public class AdminMngController extends BaseController implements AdminMngContro
         return null;
     }
 
+    @Override
+    public GraceJSONResult getAdminList(Integer page, Integer pageSize) {
+        if (page == null){
+            page = COMMON_START_PAGE;
+        }
+        if (pageSize == null){
+            pageSize = COMMON_PAGE_SIZE;
+        }
+        return null;
+    }
+
+
     private void checkAdminExist(String username){
         AdminUser adminUser = adminUserService.queryAdminByUsername(username);
         if (adminUser != null){
@@ -84,4 +99,5 @@ public class AdminMngController extends BaseController implements AdminMngContro
         setCookie(request,response,"aid",adminUser.getId(),COOKIE_MONTH);
         setCookie(request,response,"aname",adminUser.getAdminName(),COOKIE_MONTH);
     }
+
 }
