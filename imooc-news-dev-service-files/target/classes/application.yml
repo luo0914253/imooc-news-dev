@@ -10,3 +10,7 @@ spring:
     multipart:
       max-file-size: 512000
       max-request-size: 512000
+  data:
+    mongodb:
+      uri: mongodb://root:admin@47.115.46.226:27017
+      database: imooc-news

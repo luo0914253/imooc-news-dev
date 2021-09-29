@@ -31,6 +31,10 @@ public interface AdminMngControllerApi {
     @PostMapping("/addNewAdmin")
     public GraceJSONResult addNewAdmin(@RequestBody NewAdminBO newAdminBO,HttpServletRequest request,HttpServletResponse response);
 
+    @ApiOperation(value = "admin退出登录",notes = "admin退出登录",httpMethod = "POST")
+    @PostMapping("/adminLogout")
+    public GraceJSONResult adminLogout(@RequestParam String adminId,HttpServletRequest request,HttpServletResponse response);
+
     @ApiOperation(value = "查询admin列表",notes = "查询admin列表",httpMethod = "GET")
     @GetMapping("/getAdminList")
     public GraceJSONResult getAdminList(
@@ -38,4 +42,8 @@ public interface AdminMngControllerApi {
             @RequestParam Integer page,
             @ApiParam(name = "pageSize",value = "分页查询每一页显示的条数",required = false)
             @RequestParam Integer pageSize);
+
+    @ApiOperation(value = "admin管理员的人脸登录",notes = "admin管理员的人脸登录",httpMethod = "POST")
+    @PostMapping("/adminFaceLogin")
+    public GraceJSONResult adminFaceLogin(@RequestBody AdminLoginBO adminLoginBO, HttpServletRequest request, HttpServletResponse response) throws Exception;
 }
